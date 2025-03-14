@@ -1,0 +1,133 @@
+/*font-styles*/
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bahianita&display=swap');
+
+
+
+:root{
+    --primer-color:#CC4E53;
+    --segundo-color:#8F5355;
+    --tercer-color: #FA2D34;
+    --cuarto-color: #614C4C;
+    --quinto-color: #332a2a;
+
+    --Font_Principal: 'Atma', sans-serif;
+    --Font_Secundaria: 'Bahianita', cursive;
+}
+/*font-styles*/
+/*Preajuste margenes*/
+* {
+  padding: 0;
+  margin: 0;  
+  box-sizing: border-box;
+}
+main{
+flex: 0.95;
+position: relative;
+display: flex;
+flex-direction: row;
+
+
+}
+/*Preajuste margenes*/
+/*Estilo del código a_1*/
+     /*Header style*/
+.Foto_logo_header{
+      width: 45px;
+      margin-top: 10px;
+      margin-right: 200px;
+        
+     }
+     .Header_Style{
+        background-color: var(--quinto-color);
+        text-align: right;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: var(--Font_Principal);
+        font-size: 1.5rem;
+     }
+     
+     .links_header{
+        color: white;
+        text-decoration: none;
+        margin: 70px;
+        padding: 3px;
+        margin-left: 10px;
+     }
+   body{
+    background-color: var(--primer-color) ;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column;
+    
+   }
+   .main_edit{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+ 
+   }
+   .img_guess_number{
+      width: 50%;
+      height: 100%;
+      border-radius: 25%;
+   }
+   .titulo {
+      font-family: var(--Font_Principal);
+      font-size: 4rem;
+      color: var(--cuarto-color);
+   }
+   .Escrito_label{
+      font-family: var(--Font_Principal);
+      font-size: 1.5rem;
+      color: var(--cuarto-color);
+   }
+   .orden_input{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .section_edit{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .imput_style{
+      font-family: var(--Font_Principal);
+      font-size: 1.5rem;
+      color: var(--cuarto-color);
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid var(--cuarto-color);
+   }
+   .footer_edit{
+      background-color: var(--quinto-color);
+      text-align: center;
+      padding: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 1.5rem;
+     
+   }
+   .github_img{
+      width: 10%;
+      
+   }
+   .footer_edit {
+      font-family: var(--Font_Principal);
+      color: white;
+      font-size: 1.5rem;
+      
+      
+   }
+.link_Joseth_git_hub{
+   
+   color:var(--tercer-color);
+   font-size: 1.5rem;
+   font-weight: 800;
+}
