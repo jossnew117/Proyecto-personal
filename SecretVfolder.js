@@ -1,4 +1,4 @@
-let tuCumpleaños = "15/03/20";
+let tuCumpleaños = "15/03/2000";
 
 //function 
 function interfazTextoElemento(elemento,texto){
@@ -22,7 +22,7 @@ Te quiero, mi delicado pero valiente, susurro de otoño🍂🍂.`);
 
 
 function condicionesIniciales(){
-    interfazTextoElemento("label", "Digita tu cumpleaños (dd/mm/aa)");
+    interfazTextoElemento("label", "Digita tu cumpleaños (dd/mm/aaaa)");
     interfazTextoElemento("h1", "Feliz cumpleaños");
     document.getElementById("imagenes").style.display = "none";
     
