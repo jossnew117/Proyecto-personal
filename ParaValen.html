@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto_1</title>
+    <title>SecretVfolder</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="Header_Style">
         <nav>
-            <p> </p>
             <img class="Foto_logo_header" src="assets/Logo_foto.png" alt="Foto_logo">
-            <a class="links_header" href="guessTheNumber.html">Adivina el número</a>
+            <a class="links_header" href="index.html">Adivina el número</a>
             <a class="links_header" href="calculator.html">Calculadora</a>
             <a class="links_header" href="ParaValen.html">Para Valen</a>
         </nav>
         
     </header>
         <main class="main_edit">
-            <h1 class="titulo">En espera</h1>
+            <h1 class="titulo"></h1>
+            
+            <div class="imagenes_valen"  id="imagenes">
+                <img class="fotos_compartidas" src="assets/V/IMG_1.jpg" alt="img1">
+                <img class="fotos_compartidas" src="assets/V/IMG_2.jpg" alt="img2">
+                <img class="fotos_compartidas" src="assets/V/IMG_3.jpg" alt="img3">
+            </div>
             <section class="section_edit">
                     <div class="orden_input">
-                        <label class="Escrito_label" for="numero"> Digita mi cumpleaños (dd/mm/aa)</label>
-                        <button onclick="numeroDeUsuario()">Aceptar</button>
-                        <button onclick="reiniciarJuego()" id="reiniciar" disabled>Intentar de nuevo</button>
-                        <input class="imput_style" type="number" id="numeroRegistrado" placeholder="Escribe un número">
+                        <label class="Escrito_label" for="numero"> </label>
+                        <button class="button_style" onclick="cumpleaños()">Aceptar</button>
+                        <button class="button_style" onclick="reiniciarJuego()" id="reiniciar" disabled>Intentar de nuevo</button>
+                        <input class="imput_style" type="text" id="numeroRegistrado" placeholder="Escribe un número">
                     </div>
+                    
             </section>
-
+            <p class="parrafo"></p>
 
         </main>
     <footer class="footer_edit">
         <p >Desarrollado por   <a href="https://github.com/jossnew117"><img class="github_img"  src="assets/github-mark/github-mark-white.png">jossnew117</a></p> 
        
     </footer>
-    <script src="soloC.html"></script>
+    <script src="SecretVfolder.js"></script>
 </body>
 </html>

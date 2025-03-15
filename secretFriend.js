@@ -18,7 +18,7 @@ function numeroDeUsuario(){
 
     if (numeroDeUsuario===numeroSecreto){
                 interfazTextoElemento("label", `Genial lo lograste el número secreto es ${numeroSecreto}` );
-                document.getElementById("reiniciar").removeAttribute("disabled");
+                
             } else {
                 if (numeroDeUsuario>numeroSecreto){
                     interfazTextoElemento("label", "El número secreto es menor");
@@ -53,7 +53,7 @@ function condicionesIniciales(){
 function reiniciarJuego(){
     limpiarInput();
     condicionesIniciales();
-    document.getElementById("reiniciar").setAttribute("disabled", "true");
+    
    
 }
 condicionesIniciales ();

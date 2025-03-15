@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto_1</title>
+    <title>guess the number</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,9 +11,9 @@
         <nav>
             <p> </p>
             <img class="Foto_logo_header" src="assets/Logo_foto.png" alt="Foto_logo">
-            <a class="links_header" href="guessTheNumber.html">Adivina el número</a>
+            <a class="links_header" href="index.html">Adivina el número</a>
             <a class="links_header" href="calculator.html">Calculadora</a>
-            <a class="links_header" href="soloC.html">Privado (solo "C")</a>
+            <a class="links_header" href="ParaValen.html">Para Valen</a>
         </nav>
         
     </header>
@@ -22,8 +22,8 @@
             <section class="section_edit">
                 <div class="orden_input">
                     <label class="Escrito_label" for="numero"> Escribe aquí el número secreto del 1 al 10</label>
-                    <button onclick="numeroDeUsuario()">Aceptar</button>
-                    <button onclick="reiniciarJuego()" id="reiniciar" disabled>Intentar de nuevo</button>
+                    <button class="button_style" onclick="numeroDeUsuario()">Aceptar</button>
+                    <button class="button_style" onclick="reiniciarJuego()" id="reiniciar" disabled>Intentar de nuevo</button>
                     <input class="imput_style" type="number" id="numeroRegistrado" placeholder="Escribe un número">
                 </div>
                 <img class="img_guess_number" src="assets/guess_numer.webp" alt="adivina el numero">

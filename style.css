@@ -42,7 +42,7 @@ flex-direction: row;
         text-align: right;
         padding: 10px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-evenly ;
         font-family: var(--Font_Principal);
         font-size: 1.5rem;
      }
@@ -73,6 +73,16 @@ flex-direction: row;
       width: 50%;
       height: 100%;
       border-radius: 25%;
+   }
+   .button_style{
+      font-family: var(--Font_Principal);
+      font-size: 1.5rem;
+      color: white;
+      background-color: var(--tercer-color);
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid var(--cuarto-color);
    }
    .titulo {
       font-family: var(--Font_Principal);
@@ -131,3 +141,150 @@ flex-direction: row;
    font-size: 1.5rem;
    font-weight: 800;
 }
+.fotos_compartidas{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: row;
+   width: 60%;
+   margin-left: 5rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   border-radius: 1rem;
+}
+.parrafo{
+   font-family: var(--Font_Principal);
+   font-size: 1.5rem;
+   color: white;
+}
+
+@media (max-width: 1200px){
+   .Foto_logo_header{
+      border-right: 2px;
+   }
+   .Header_Style{
+      display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px
+     
+   }
+   .imagenes_valen{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+   }
+   #imagenes {
+      
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+   
+      }
+      .links_header{
+         display: inline-block; /* Evita que se estiren al 100% */
+         padding: 10px 15px;
+         margin: 5px;
+         border-radius: 10px;
+         background-color: var(--tercer-color);
+         color: white;
+         text-decoration: none;
+         text-align: center;
+      }
+      .main_edit{
+         margin-top: 2rem;
+         margin-bottom: 2rem;
+         display: flex;
+         flex-direction: column-reverse;
+         align-items: center;
+         justify-content: center;
+      }
+      .img_guess_number{
+         width: 100%;
+         height: 100%;
+         border-radius: 25%;
+      }
+      .titulo {
+         font-family: var(--Font_Principal);
+         font-size: 2rem;
+         color: var(--cuarto-color);
+      }
+      .Escrito_label{
+         font-family: var(--Font_Principal);
+         font-size: 1rem;
+         color: var(--cuarto-color);
+      }
+      .orden_input{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+      }
+      .section_edit{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+      }
+      .imput_style{
+         font-family: var(--Font_Principal);
+         font-size: 1rem;
+         color: var(--cuarto-color);
+         padding: 10px;
+         margin: 10px;
+         border-radius: 10px;
+         border: 2px solid var(--cuarto-color);
+      }
+      .footer_edit{
+         background-color: var(--quinto-color);
+         text-align: center;
+         padding: 10px;
+         display: flex;
+         justify-content: space-evenly;
+         font-size: 1rem;
+        
+      }
+      .github_img{
+         width: 10%;
+         
+      }
+      .footer_edit {
+         font-family: var(--Font_Principal);
+         color: white;
+         font-size: 1rem;
+         
+         
+      }
+      .link_Joseth_git_hub{
+      
+         color:var(--tercer-color);
+         font-size: 1rem;
+         font-weight: 800;
+      }
+      .fotos_compartidas{
+         width: 50%;
+       
+      }
+   
+      .parrafo{
+         font-family: var(--Font_Principal);
+         font-size: 1rem;
+         color: white;
+      }
+     
+      
+   }
+
+    
+   
+
+
+   
+    
+
+     
+  
