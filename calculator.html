@@ -20,13 +20,48 @@
         <main class="main_edit">
             <h1 class="titulo">Trabajanding</h1>
             <section class="section_edit">
-                <div class="orden_input">
-                    <label class="Escrito_label" for="numero"> Trabajando</label>
-                    <button onclick="numeroDeUsuario()">Aceptar</button>
-                    <button onclick="reiniciarJuego()" id="reiniciar" disabled>Intentar de nuevo</button>
+                <div class="orden_calculadora">
+                    <label class="Escrito_label" for="numero"> Calculadora</label>
                     <input class="imput_style" type="number" id="numeroRegistrado" placeholder="Escribe un número">
-                </div>
             
+                    
+                </div>
+                <div class="botones_calculadora">
+                    <button class="diseño_botones" onclick="porcentaje()">%</button>
+                    <button class="diseño_botones" onclick="borrado_Imput_Full()">CE</button>
+                    <button class="diseño_botones" onclick="borrado_imput()">C</button>
+                    <button class="diseño_botones" onclick="borrarNumero()">⌫</button>
+                </div>
+                <div class="botones_calculadora">
+                    <button  class="diseño_botones"onclick="numero1eX()">1/x</button>
+                    <button class="diseño_botones" onclick="numeroXcuadrado()">x^2</button>
+                    <button class="diseño_botones" onclick="numeroRaiz()">√x</button>
+                    <button class="diseño_botones" onclick="divisor()">÷</button>
+                </div>
+                <div class="botones_calculadora">
+                    <button class="diseño_botones" onclick="numeroSiete()">7</button>
+                    <button class="diseño_botones" onclick="numeroOcho()">8</button>
+                    <button class="diseño_botones" onclick="numeroNueve()">9</button>
+                    <button class="diseño_botones" onclick="multiplicador()">×</button>
+                </div>
+                <div class="botones_calculadora">
+                    <button class="diseño_botones" onclick="numeroCuatro()">4</button>
+                    <button class="diseño_botones" onclick="numeroCinco()">5</button>
+                    <button class="diseño_botones" onclick="numeroSeis()">6</button>
+                    <button class="diseño_botones" onclick="numeromenos()">-</button>
+                </div>
+                <div class="botones_calculadora">
+                    <button class="diseño_botones" onclick="numeroUno()">1</button>
+                    <button class="diseño_botones" onclick="numeroDos()">2</button>
+                    <button class="diseño_botones" onclick="numeroTres()">3</button>
+                    <button class="diseño_botones" onclick="suma()">+</button>
+                </div>
+                <div class="botones_calculadora">
+                    <button class="diseño_botones" onclick="CambioDeSigno()">+/-</button>
+                    <button class="diseño_botones" onclick="numeroCero()">0</button>
+                    <button class="diseño_botones" onclick="coma()">,</button>
+                    <button class="diseño_botones" onclick="igual()">=</button>
+                </div>
             </section>
 
 
